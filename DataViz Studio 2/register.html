@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kursga yozilish - DataViz Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sahifaning yuqori qismi va navigatsiya menyusi -->
+    <header>
+        <div class="logo">DataViz Studio</div>
+        <nav>
+            <a href="index.html">Bosh sahifa</a>
+            <a href="courses.html">Kurslar</a>
+            <a href="register.html">Kursga yozilish</a>
+            <a href="about.html">Biz haqimizda</a>
+        </nav>
+    </header>
+
+    <!-- Asosiy kontent qismi -->
+    <main>
+        <h2>Kursga onlayn yozilish formasi</h2>
+        
+        <!-- Forma yaratish -->
+        <form action="#" method="POST" class="reg-form">
+            <label for="name">F.I.Sh (Ism familiyangiz):</label><br>
+            <input type="text" id="name" name="name" placeholder="Ismingizni kiriting..."><br><br>
+
+            <label for="phone">Telefon raqamingiz:</label><br>
+            <input type="text" id="phone" name="phone" placeholder="+998 -- --- -- --"><br><br>
+
+            <label for="course">Kurs yo'nalishini tanlang:</label><br>
+            <select id="course" name="course">
+                <option value="sql">SQL & Excel Analyst</option>
+                <option value="python">Python for Data Science</option>
+            </select><br><br>
+
+            <button type="submit">Ariza yuborish</button>
+        </form>
+    </main>
+</body>
+</html>
