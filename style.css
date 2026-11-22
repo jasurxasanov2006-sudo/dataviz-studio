@@ -1,0 +1,37 @@
+/* Asosiy sahifa sozlamalari */
+body {
+  background-color: #f8fafc;
+}
+
+/* Slayder slaydlari o‘lchami va ranglari */
+.carousel-item {
+  min-height: 260px;
+}
+
+.slide-fon-1 {
+  background-color: #1e293b;
+}
+
+.slide-fon-2 {
+  background-color: #0f766e;
+}
+
+.slide-fon-3 {
+  background-color: #1d4ed8;
+}
+
+/* Kurs panellari uchun yengil effekt */
+.kurs-panel {
+  transition: transform 0.2s ease;
+}
+
+.kurs-panel:hover {
+  transform: translateY(-3px);
+}
+
+/* Media rasm balandligi */
+.media-rasm {
+  max-height: 240px;
+  width: 100%;
+  object-fit: cover;
+}
